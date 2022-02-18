@@ -136,12 +136,24 @@ html {
   border: 1px solid var(--second-color);
   padding: 5px 8px;
   border-radius: 8px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.project-item span:hover {
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
 }
 
 .project-item__description {
   font-size: 1.1rem;
   line-height: 1.5;
   font-weight: 300;
+}
+
+.project-item a:hover {
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
 }
 
 .project-item a {
