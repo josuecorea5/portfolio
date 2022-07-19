@@ -56,6 +56,7 @@ html {
 
 .main-content__profile h1 {
   font-size: 4rem;
+  text-align: center;
 } 
 
 .main-content__profile p {
@@ -109,6 +110,7 @@ html {
 
 .title-project {
   font-size: 2.3rem;
+  text-align: center;
   color: var(--brand-title);
 }
 
@@ -117,6 +119,7 @@ html {
   grid-template-columns: repeat(auto-fit,minmax(200px,300px));
   grid-auto-rows: auto;
   gap: 50px;
+  justify-content: center;
   margin-bottom: 80px;
 }
 
@@ -135,6 +138,7 @@ html {
   display: inline-block;
   border: 1px solid var(--second-color);
   padding: 5px 8px;
+  margin-bottom: 4px;
   border-radius: 8px;
   margin-right: 6px;
   cursor: pointer;
